@@ -1,3 +1,8 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .top-bar {
     width: 100%;
     height: 50px;
@@ -29,14 +34,31 @@ li {
     width: 100%;
     height: 450px;
     background-color: rgb(64, 219, 149);
+    margin-bottom: 50px;
 }
 
 .first-section-content {
-    width: 80%;
+    width: 40%;
     height: 450px;
     margin: 0 auto;
     background-color: rgb(80, 132, 169);
-    position: relative;
-    vertical-align: middle;
-    text-align: center;
+}
+
+.portfolio-content {
+    margin-top: 75px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(80, 132, 169);
+}
+
+.logo {
+    background-color: red;
+    border: 1px solid white;
+}
+
+.img {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(136, 249, 125);
 }
