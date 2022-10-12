@@ -44,12 +44,17 @@ li {
     background-color: rgb(80, 132, 169);
 }
 
+.portfolio-title {
+    background-color: red;
+    height: 125px;
+}
+
 .portfolio-content {
-    margin-top: 75px;
     width: 80%;
-    height: 500px;
+    height: 100%;
     margin: 0 auto;
     background-color: rgb(80, 132, 169);
+    margin-bottom: 55px;
 }
 
 .logo {
@@ -61,4 +66,24 @@ li {
     height: 250px;
     width: 100%;
     background-color: rgb(136, 249, 125);
+}
+
+.about-container {
+    background-color: aquamarine;
+    height: 550px;
+}
+
+.row-about {
+    display: flex;
+}
+
+.about-title {
+    background-color: black;
+    height: 100px;
+    padding-top: 70px;
+}
+
+.about-col {
+    background-color: white;
+    height: 400px;
 }
