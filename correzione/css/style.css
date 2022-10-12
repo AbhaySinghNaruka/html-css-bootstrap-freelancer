@@ -18,8 +18,8 @@ body {
 }
 
 .bl_card {
-    height: 150px;
-    background-color: salmon;
+    height: 305px;
+    /* background-color: salmon; */
     border-radius: 2rem;
     overflow: hidden;
 }
@@ -31,3 +31,25 @@ body {
 .btn-send {
     background-color: rgb(56, 241, 83);
 }
+
+
+
+
+footer {
+    background-color: #3A546D;
+    color: white;
+}
+footer .row p{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  footer .icon{
+    display: inline-block;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+  }
+  footer a{
+    color: aqua;
+  }
